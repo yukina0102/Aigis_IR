@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{29cab8b4-f9ef-4a2b-82df-e4ad917aa503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\External">
+      <UniqueIdentifier>{999469ab-ba44-462d-8fcf-9ce089cc964a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aigis_IR">
+      <UniqueIdentifier>{a7cec126-9cfc-43b4-90ea-6e9f3d46326a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{954a3cf9-144d-49b5-a00b-60d90db6fd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase\Common">
+      <UniqueIdentifier>{3c4df9c3-ef7e-4bea-9c26-b9db33707b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase\DataClass">
+      <UniqueIdentifier>{0344a967-bb22-4e69-86e4-731813711219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase\Common\Module">
+      <UniqueIdentifier>{d7969e53-8d25-405d-a37d-242fb0f79e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Capture">
+      <UniqueIdentifier>{17174edf-3f71-475c-ab1f-b2fddf3eef4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Debug">
+      <UniqueIdentifier>{3cc4b177-d2fa-4e62-b548-63663a605efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{049c61ab-61f6-4d30-9b1e-bf94cece69be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Screen.cpp">
+      <Filter>Capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OutputDevice.cpp">
+      <Filter>Common\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Message.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common\BitMat.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Define.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Path.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common\tString.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SqlAccess.cpp">
+      <Filter>DataBase\Common\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SqlData.cpp">
+      <Filter>DataBase\Common\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataManager.cpp">
+      <Filter>DataBase\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataSearcher.cpp">
+      <Filter>DataBase\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TemplateImage.cpp">
+      <Filter>DataBase\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SubModule\wcwidth\wcwidth.cpp">
+      <Filter>Common\External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Screen.h">
+      <Filter>Capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SubModule\wcwidth\wcwidth.h">
+      <Filter>Common\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OutputDevice.h">
+      <Filter>Common\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Console.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Message.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataCommon.h">
+      <Filter>DataBase\DataClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item.h">
+      <Filter>DataBase\DataClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Unit.h">
+      <Filter>DataBase\DataClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stage.h">
+      <Filter>DataBase\DataClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common\BitMat.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Path.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common\tString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SqlAccess.h">
+      <Filter>DataBase\Common\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SqlData.h">
+      <Filter>DataBase\Common\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataManager.h">
+      <Filter>DataBase\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataSearcher.h">
+      <Filter>DataBase\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TemplateImage.h">
+      <Filter>DataBase\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
