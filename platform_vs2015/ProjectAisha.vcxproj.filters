@@ -152,5 +152,8 @@
     <ClInclude Include="..\src\TemplateImage.h">
       <Filter>DataBase\Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\opencv_lib.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

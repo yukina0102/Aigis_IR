@@ -75,7 +75,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(BOOST_DIR);$(OPENCV_DIR)\include;$(HOME)\shr\sqlite3\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(BOOST_DIR);$(OPENCV_DIR)\include;$(SQLITE3_DIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SQLITE3_DIR)\x64\vc14\lib;$(OPENCV_DIR)\x64\vc12\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -83,7 +84,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(BOOST_DIR);$(OPENCV_DIR)\include;$(HOME)\shr\sqlite3\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(BOOST_DIR);$(OPENCV_DIR)\include;$(SQLITE3_DIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SQLITE3_DIR)\x64\vc14\lib;$(OPENCV_DIR)\x64\vc12\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -178,6 +180,7 @@
     <ClInclude Include="..\src\Define.h" />
     <ClInclude Include="..\src\Item.h" />
     <ClInclude Include="..\src\Message.h" />
+    <ClInclude Include="..\src\opencv_lib.h" />
     <ClInclude Include="..\src\OutputDevice.h" />
     <ClInclude Include="..\src\Path.h" />
     <ClInclude Include="..\src\Screen.h" />

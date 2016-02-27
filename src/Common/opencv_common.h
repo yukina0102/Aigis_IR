@@ -1,19 +1,19 @@
-#ifndef __OPENCV_H__
+ï»¿#ifndef __OPENCV_H__
 #define __OPEMCV_H__
 
 //#define __LIB_DLL__
 #define __LIB_STATIC__
 
 #pragma warning(disable : 4819)
-//OpenCV‹¤’Êƒwƒbƒ_[
+//OpenCVå…±é€šãƒ˜ãƒƒãƒ€ãƒ¼
 //#include <opencv2/opencv.hpp>
 #include <opencv2/opencv.hpp>
-//ƒ‰ƒCƒuƒ‰ƒŠ
+//ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
 #ifdef __LIB_DLL__
 #include <opencv2/opencv_lib.hpp>
 #endif
 #ifdef __LIB_STATIC__
-#include <opencv2/opencv_staticlib.hpp>
+#include "opencv_lib.h"
 #endif
 
 #pragma warning(default: 4819)

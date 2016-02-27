@@ -1,8 +1,8 @@
 #ifndef __SQLITE_COMMON_H__
 #define __SQLITE_COMMON_H__
 
-//#define __LIB_DLL__		(1)
-#define __LIB_STATIC__		(1)
+#define __LIB_DLL__		(1)
+//#define __LIB_STATIC__		(1)
 
 #include <sqlite3.h>
 
