@@ -104,8 +104,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -137,8 +136,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -166,7 +164,7 @@
     <ClCompile Include="..\src\SqlAccess.cpp" />
     <ClCompile Include="..\src\SqlData.cpp" />
     <ClCompile Include="..\src\stdafx.cpp" />
-    <ClCompile Include="..\src\SubModule\wcwidth\wcwidth.cpp" />
+    <ClCompile Include="..\src\SubModules\wcwidth\wcwidth.cpp" />
     <ClCompile Include="..\src\TemplateImage.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -188,7 +186,7 @@
     <ClInclude Include="..\src\SqlData.h" />
     <ClInclude Include="..\src\Stage.h" />
     <ClInclude Include="..\src\stdafx.h" />
-    <ClInclude Include="..\src\SubModule\wcwidth\wcwidth.h" />
+    <ClInclude Include="..\src\SubModules\wcwidth\wcwidth.h" />
     <ClInclude Include="..\src\TemplateImage.h" />
     <ClInclude Include="..\src\Unit.h" />
   </ItemGroup>

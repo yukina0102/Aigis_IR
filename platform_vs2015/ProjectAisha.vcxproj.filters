@@ -87,16 +87,13 @@
     <ClCompile Include="..\src\TemplateImage.cpp">
       <Filter>DataBase\Common</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\SubModule\wcwidth\wcwidth.cpp">
+    <ClCompile Include="..\src\SubModules\wcwidth\wcwidth.cpp">
       <Filter>Common\External</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Screen.h">
       <Filter>Capture</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\SubModule\wcwidth\wcwidth.h">
-      <Filter>Common\External</Filter>
     </ClInclude>
     <ClInclude Include="..\src\OutputDevice.h">
       <Filter>Common\Debug</Filter>
@@ -154,6 +151,9 @@
     </ClInclude>
     <ClInclude Include="..\src\opencv_lib.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SubModules\wcwidth\wcwidth.h">
+      <Filter>Common\External</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

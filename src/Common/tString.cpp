@@ -1,5 +1,5 @@
 ﻿#include "tString.h"
-#include "../SubModule/wcwidth/wcwidth.h"
+#include "../SubModules/wcwidth/wcwidth.h"
 
 tstring::tstring()
 	: std::basic_string<_TCHAR>() {}

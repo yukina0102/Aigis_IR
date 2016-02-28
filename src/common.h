@@ -15,7 +15,7 @@
 #include <boost/variant.hpp>
 
 #include "Common\tString.h"
-#include "SubModule\wcwidth\wcwidth.h"
+#include "SubModules\wcwidth\wcwidth.h"
 
 #include "Common\opencv_common.h"
 #include "Common\sqlite_common.h"
