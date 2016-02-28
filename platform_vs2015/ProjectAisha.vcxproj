@@ -76,7 +76,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(BOOST_DIR);$(OPENCV_DIR)\include;$(SQLITE3_DIR)\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SQLITE3_DIR)\x64\vc14\lib;$(OPENCV_DIR)\x64\vc12\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SQLITE3_DIR)\x64\vc14\lib;$(OPENCV_DIR)\x64\vc14\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -85,7 +85,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(BOOST_DIR);$(OPENCV_DIR)\include;$(SQLITE3_DIR)\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SQLITE3_DIR)\x64\vc14\lib;$(OPENCV_DIR)\x64\vc12\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SQLITE3_DIR)\x64\vc14\lib;$(OPENCV_DIR)\x64\vc14\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -151,7 +151,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Activity.cpp" />
     <ClCompile Include="..\src\Common\BitMat.cpp" />
+    <ClCompile Include="..\src\Common\Debug.cpp" />
     <ClCompile Include="..\src\Common\tString.cpp" />
     <ClCompile Include="..\src\DataManager.cpp" />
     <ClCompile Include="..\src\DataSearcher.cpp" />
@@ -168,8 +170,10 @@
     <ClCompile Include="..\src\TemplateImage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\Activity.h" />
     <ClInclude Include="..\src\common.h" />
     <ClInclude Include="..\src\Common\BitMat.h" />
+    <ClInclude Include="..\src\Common\Debug.h" />
     <ClInclude Include="..\src\Common\tString.h" />
     <ClInclude Include="..\src\Console.h" />
     <ClInclude Include="..\src\DataCommon.h" />

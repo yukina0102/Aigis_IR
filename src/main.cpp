@@ -1,6 +1,6 @@
 #include "common.h"
-
-#include "Common\BitMat.h" 
+#include "Activity.h"
+//#include "Common\BitMat.h" 
 
 int _tmain(int argc, _TCHAR  *argv[])
 {
@@ -23,5 +23,5 @@ int _tmain(int argc, _TCHAR  *argv[])
 	}*/
 
 	
-	return 0;
+	return CActivity::GetInstance()->main( argc, argv );
 }

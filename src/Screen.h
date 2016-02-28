@@ -91,6 +91,6 @@ public:
 
 };
 
-typedef class CScreen * Screen;
+typedef class std::unique_ptr<CScreen> Screen;
 
 #endif/*__SCREEN_H__*/

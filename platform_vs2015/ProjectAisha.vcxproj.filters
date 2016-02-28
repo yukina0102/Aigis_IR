@@ -90,6 +90,12 @@
     <ClCompile Include="..\src\SubModules\wcwidth\wcwidth.cpp">
       <Filter>Common\External</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Activity.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common\Debug.cpp">
+      <Filter>Common\Debug</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Screen.h">
@@ -154,6 +160,12 @@
     </ClInclude>
     <ClInclude Include="..\src\SubModules\wcwidth\wcwidth.h">
       <Filter>Common\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Activity.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common\Debug.h">
+      <Filter>Common\Debug</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
